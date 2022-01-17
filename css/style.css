@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body,h1,h2,h3,h4,h5,h6,p,span,a,input,textarea,buttom{
+	font-family: 'Rubik', sans-serif;
+}
+/*
+header section code
+*/
+header{
+	width: 100%;
+	padding: 12px 0;
+	border-bottom: 2oz solid #eee;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 12px;
+	line-height: 70px;
+}
+/*banner sectin css*/
+#banner{
+	width: 100%;
+	padding: 40px 0;
+	text-align: center;
+}
+.banner-content h1{
+	font-size: 56px;
+	margin-bottom: 16px;
+}
+.banner-content span{
+	color: #008aff;
+}
+.banner-content p{
+	font-weight: 300;
+	margin-bottom: 32px;
+}
+
+/*about section css*/
+#about{
+	width: 100%;
+	padding: 40px 0px;
+}
+.about-content{
+	display: flex;
+}
+.left,.right{
+	flex-basis: 50%;
+}
+.left{
+	text-align: right;
+	margin-right: 16px;
+}
+.right{
+	text-align: left;
+	margin-left: 16px;
+}
+.left h2{
+	font-size: 42px;
+	color: tomato;
+	margin-bottom: 16px;
+}
+.left p{
+	font-weight: 300;
+	line-height: 1.5;
+}
+.right h2{
+	font-size: 42px;
+	color: 3f3d56;
+}
+/*services section css*/
+#service{
+	width: 100%;
+	padding: 40px 0px;
+}
+.service-content{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.service-item{
+	margin: 20px;
+	padding: 16px;
+}
+.one{
+	background: #fdebed;
+}
+.two{
+	background: #ebf9f4;
+}
+.three{
+	background: #fff7e8;
+}
+.service-item h4{
+	font-size: 20px;
+	margin-bottom: 12px;
+	font-weight: 500;
+}
+.service-item p{
+	font-weight: 300;
+}
+
+
+footer{
+	background: #008aff;
+	padding: 20px 0;
+	text-align: center;
+
+}
+.footer-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 16px;
+}
+.footer-icon ul li a i{
+	height: 40px;
+	width: 40px;
+	background: #47c4ff;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	border-radius: 100%;
+	transition: 0.3s;
+}
+.footer-icon ul li a i:hover{
+	transform: rotate(360deg);
+	transition: 0.3s;
+	background: tomato;
+
+}
